@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="analysis.cpp" />
+    <ClCompile Include="analysis64.cpp" />
+    <ClCompile Include="asmjit\core\assembler.cpp" />
+    <ClCompile Include="asmjit\core\assert.cpp" />
+    <ClCompile Include="asmjit\core\buffer.cpp" />
+    <ClCompile Include="asmjit\core\compiler.cpp" />
+    <ClCompile Include="asmjit\core\compilercontext.cpp" />
+    <ClCompile Include="asmjit\core\compilerfunc.cpp" />
+    <ClCompile Include="asmjit\core\compileritem.cpp" />
+    <ClCompile Include="asmjit\core\context.cpp" />
+    <ClCompile Include="asmjit\core\cpuinfo.cpp" />
+    <ClCompile Include="asmjit\core\defs.cpp" />
+    <ClCompile Include="asmjit\core\func.cpp" />
+    <ClCompile Include="asmjit\core\logger.cpp" />
+    <ClCompile Include="asmjit\core\memorymanager.cpp" />
+    <ClCompile Include="asmjit\core\memorymarker.cpp" />
+    <ClCompile Include="asmjit\core\operand.cpp" />
+    <ClCompile Include="asmjit\core\stringbuilder.cpp" />
+    <ClCompile Include="asmjit\core\stringutil.cpp" />
+    <ClCompile Include="asmjit\core\virtualmemory.cpp" />
+    <ClCompile Include="asmjit\core\zonememory.cpp" />
+    <ClCompile Include="asmjit\x86\x86assembler.cpp" />
+    <ClCompile Include="asmjit\x86\x86compiler.cpp" />
+    <ClCompile Include="asmjit\x86\x86compilercontext.cpp" />
+    <ClCompile Include="asmjit\x86\x86compilerfunc.cpp" />
+    <ClCompile Include="asmjit\x86\x86compileritem.cpp" />
+    <ClCompile Include="asmjit\x86\x86cpuinfo.cpp" />
+    <ClCompile Include="asmjit\x86\x86defs.cpp" />
+    <ClCompile Include="asmjit\x86\x86func.cpp" />
+    <ClCompile Include="asmjit\x86\x86operand.cpp" />
+    <ClCompile Include="asmjit\x86\x86util.cpp" />
+    <ClCompile Include="assemble.cpp" />
+    <ClCompile Include="bent.cpp" />
+    <ClCompile Include="binloader.cpp" />
+    <ClCompile Include="binterface.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="cgen.cpp" />
+    <ClCompile Include="crc32.cpp" />
+    <ClCompile Include="dbginfo.cpp" />
+    <ClCompile Include="generator.cpp" />
+    <ClCompile Include="hooy.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="loader.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mt19937.cpp" />
+    <ClCompile Include="mutate.cpp" />
+    <ClCompile Include="patch.cpp" />
+    <ClCompile Include="pedump.cpp" />
+    <ClCompile Include="peloader.cpp" />
+    <ClCompile Include="peloader64.cpp" />
+    <ClCompile Include="reassemble.cpp" />
+    <ClCompile Include="timing.cpp" />
+    <ClCompile Include="xalloc.cpp" />
+    <ClCompile Include="xda.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action.h" />
+    <ClInclude Include="analysis.h" />
+    <ClInclude Include="analysis64.h" />
+    <ClInclude Include="asmjit\asmjit.h" />
+    <ClInclude Include="asmjit\config.h" />
+    <ClInclude Include="asmjit\core.h" />
+    <ClInclude Include="asmjit\core\apibegin.h" />
+    <ClInclude Include="asmjit\core\apiend.h" />
+    <ClInclude Include="asmjit\core\assembler.h" />
+    <ClInclude Include="asmjit\core\assert.h" />
+    <ClInclude Include="asmjit\core\buffer.h" />
+    <ClInclude Include="asmjit\core\build.h" />
+    <ClInclude Include="asmjit\core\compiler.h" />
+    <ClInclude Include="asmjit\core\compilercontext.h" />
+    <ClInclude Include="asmjit\core\compilerfunc.h" />
+    <ClInclude Include="asmjit\core\compileritem.h" />
+    <ClInclude Include="asmjit\core\context.h" />
+    <ClInclude Include="asmjit\core\cpuinfo.h" />
+    <ClInclude Include="asmjit\core\defs.h" />
+    <ClInclude Include="asmjit\core\func.h" />
+    <ClInclude Include="asmjit\core\intutil.h" />
+    <ClInclude Include="asmjit\core\lock.h" />
+    <ClInclude Include="asmjit\core\logger.h" />
+    <ClInclude Include="asmjit\core\memorymanager.h" />
+    <ClInclude Include="asmjit\core\memorymarker.h" />
+    <ClInclude Include="asmjit\core\operand.h" />
+    <ClInclude Include="asmjit\core\podvector.h" />
+    <ClInclude Include="asmjit\core\stringbuilder.h" />
+    <ClInclude Include="asmjit\core\stringutil.h" />
+    <ClInclude Include="asmjit\core\virtualmemory.h" />
+    <ClInclude Include="asmjit\core\zonememory.h" />
+    <ClInclude Include="asmjit\x86.h" />
+    <ClInclude Include="asmjit\x86\x86assembler.h" />
+    <ClInclude Include="asmjit\x86\x86compiler.h" />
+    <ClInclude Include="asmjit\x86\x86compilercontext.h" />
+    <ClInclude Include="asmjit\x86\x86compilerfunc.h" />
+    <ClInclude Include="asmjit\x86\x86compileritem.h" />
+    <ClInclude Include="asmjit\x86\x86cpuinfo.h" />
+    <ClInclude Include="asmjit\x86\x86defs.h" />
+    <ClInclude Include="asmjit\x86\x86func.h" />
+    <ClInclude Include="asmjit\x86\x86operand.h" />
+    <ClInclude Include="asmjit\x86\x86util.h" />
+    <ClInclude Include="assemble.h" />
+    <ClInclude Include="BeaEngine.h" />
+    <ClInclude Include="bent.h" />
+    <ClInclude Include="binloader.h" />
+    <ClInclude Include="binterface.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="cgen.h" />
+    <ClInclude Include="crc32.h" />
+    <ClInclude Include="dbginfo.h" />
+    <ClInclude Include="generator.h" />
+    <ClInclude Include="hooy.h" />
+    <ClInclude Include="Includes\basic_types.h" />
+    <ClInclude Include="Includes\export.h" />
+    <ClInclude Include="libtcc.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="loader.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mt19937.h" />
+    <ClInclude Include="mutate.h" />
+    <ClInclude Include="patch.h" />
+    <ClInclude Include="pedump.h" />
+    <ClInclude Include="peloader.h" />
+    <ClInclude Include="peloader64.h" />
+    <ClInclude Include="reassemble.h" />
+    <ClInclude Include="timing.h" />
+    <ClInclude Include="xalloc.h" />
+    <ClInclude Include="xda.h" />
+    <ClInclude Include="_vector.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A23BE975-BB9E-4B58-B3EA-51AC596223A6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>libtcc.lib;dbghelp.lib;BeaEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>crt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SDLCheck>false</SDLCheck>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreSpecificDefaultLibraries>crt.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>libtcc.lib;dbghelp.lib;BeaEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>BeaEngine64.lib;libtcc64.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <IgnoreSpecificDefaultLibraries>crt64.lib</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Link>
+      <AdditionalDependencies>BeaEngine64.lib;libtcc64.lib;dbghelp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>crt64.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

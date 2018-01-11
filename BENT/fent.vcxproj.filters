@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="BeaEngine">
+      <UniqueIdentifier>{74d23e29-6ef3-469c-9fe5-bc42393eae53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsmJit">
+      <UniqueIdentifier>{ae90008f-e7ea-4ee8-a283-d7a5d1efada2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtcc">
+      <UniqueIdentifier>{034c2ac6-a20d-47f4-8eed-65db1ad715a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assemble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbginfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mt19937.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mutate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="peloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reassemble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\assembler.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\assert.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\buffer.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\compiler.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\compilercontext.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\compilerfunc.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\compileritem.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\context.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\cpuinfo.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\defs.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\func.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\logger.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\memorymanager.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\memorymarker.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\operand.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\stringbuilder.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\stringutil.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\virtualmemory.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\core\zonememory.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86assembler.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86compiler.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86compilercontext.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86compilerfunc.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86compileritem.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86cpuinfo.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86defs.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86func.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86operand.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86util.cpp">
+      <Filter>AsmJit</Filter>
+    </ClCompile>
+    <ClCompile Include="patch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="peloader64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pedump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbginfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mt19937.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mutate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="peloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reassemble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assemble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine.h">
+      <Filter>BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\basic_types.h">
+      <Filter>BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\export.h">
+      <Filter>BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\asmjit.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\config.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\apibegin.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\apiend.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\assembler.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\assert.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\buffer.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\build.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\compiler.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\compilercontext.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\compilerfunc.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\compileritem.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\context.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\cpuinfo.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\defs.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\func.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\intutil.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\lock.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\logger.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\memorymanager.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\memorymarker.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\operand.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\podvector.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\stringbuilder.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\stringutil.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\virtualmemory.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonememory.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86assembler.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86compiler.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86compilercontext.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86compilerfunc.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86compileritem.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86cpuinfo.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86defs.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86func.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86operand.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86util.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86.h">
+      <Filter>AsmJit</Filter>
+    </ClInclude>
+    <ClInclude Include="patch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libtcc.h">
+      <Filter>libtcc</Filter>
+    </ClInclude>
+    <ClInclude Include="cgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="peloader64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pedump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
